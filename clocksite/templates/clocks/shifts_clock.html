@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Here is where to clock     
+{% endblock title %}
+
+{% block content %}
+    <h1>clock</h1>
+        <p>where to put FORM</p>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Send</button>
+        </form>
+{% endblock content %}
+    

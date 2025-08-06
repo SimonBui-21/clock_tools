@@ -1,0 +1,27 @@
+.shift-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    font-family: 'Arial', sans-serif;
+    transition: transform 0.2s ease-in-out;
+}
+
+.shift-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.shift-name {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.shift-dates p {
+    margin: 5px 0;
+    color: #555555;
+    font-size: 1rem;
+}

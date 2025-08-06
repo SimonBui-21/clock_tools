@@ -21,5 +21,7 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
+    path('clocks/', include('clock_app.urls')),
+    
     # path('account/', include('django.contrib.auth.urls')),
 ]
